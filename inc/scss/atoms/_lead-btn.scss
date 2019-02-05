@@ -1,0 +1,24 @@
+.lead-btn{
+  margin: 24px;
+  padding: 16px 36px;
+  text-transform: uppercase;
+  font-family: $font-family-secondary;
+  min-width: 100px;
+  font-size: 14px;
+  @media(min-width:576px){
+    min-width: 212px;
+    margin: 36px;
+    padding: 18px 48px;
+    font-size: 18px;
+  }
+
+  font-weight: lighter;
+  border-width: 1.5px;
+  .section--svg{
+    margin-right: 12px;
+  }
+
+  &--red:hover{
+    color: #d24d57;
+  }
+}

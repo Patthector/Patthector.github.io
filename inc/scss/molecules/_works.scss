@@ -1,0 +1,49 @@
+.work{
+
+  &--title{
+    color:black;
+    font-size: 36px;
+    font-family: $font-family-default;
+    @media(min-width:576px){
+      font-size: 48px;
+    }
+  }
+
+  &--description{
+    color:gray;
+    font-size:14px;
+    font-family: $font-family-secondary;
+    text-align: justify;
+    @media(min-width:576px){
+      font-size: 16px;
+    }
+  }
+  &--img{
+    width: 100%;
+    @media(min-width:576px){
+      width: 75%;
+      margin: auto;
+    }
+    align-self: center;
+  }
+  &--container-buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &--button{
+    margin: 12px 24px;
+    border-width: 2px;
+    font-size:12px;
+    max-width: 200px;
+    padding: 12px 18px;
+    @media(min-width:576px){
+      max-width:275px;
+      font-size:14px;
+    }
+    &:hover{
+      color: white;
+    }
+  }
+}

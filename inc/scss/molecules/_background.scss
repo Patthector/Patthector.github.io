@@ -1,0 +1,28 @@
+.background{
+  width: 100%;
+  position: relative;
+
+  &--sm{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  &--md{
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  &--lg{
+    padding-top: 84px;
+    padding-bottom: 84px;
+  }
+  &--general{
+    background-color: #f7f7f7;
+  }
+
+  &--tomato{
+    background-color: #dc3545;
+  }
+
+  &--green{
+    //background-color: rgba(green, .7);
+  }
+}

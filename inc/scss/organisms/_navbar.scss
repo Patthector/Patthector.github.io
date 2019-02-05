@@ -1,0 +1,19 @@
+#navbar{
+  background-color: transparent;
+  transition: all 1s;
+}
+.navbar-shadow{
+  box-shadow: 0px 4px 10px #909090;
+}
+.portfolio__navbar-collapse{
+  justify-content: flex-end;
+}
+.portfolio__nav-item{
+  text-transform: uppercase;
+  @media(min-width:576px){
+    margin: 12px;
+  }
+  .portfolio__nav-link{
+    color: white !important;
+  }
+}
