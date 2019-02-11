@@ -36,6 +36,9 @@ $(document).ready(function(){
       $("#navbar").addClass("navbar-shadow");
       $(".nav-link").removeClass("portfolio__nav-link");
       $("#navbar").removeClass("navbar-dark");
+      $("#portfolio__logo svg circle").css("fill", "#dc3545");
+      $("#portfolio__logo svg path").css("fill", "#fff");
+      $("#navbar li a").css("color", "#dc3545");
     }
   };
   function hideNavbar(){
@@ -45,6 +48,8 @@ $(document).ready(function(){
       $("#navbar").removeClass("navbar-shadow");
       $(".nav-link").addClass("portfolio__nav-link");
       $("#navbar").addClass("navbar-dark");
+      $("#portfolio__logo svg circle").css("fill", "#fff");
+      $("#portfolio__logo svg path").css("fill", "#dc3545");
     }
   };
 
