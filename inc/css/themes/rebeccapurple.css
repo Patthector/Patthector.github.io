@@ -317,10 +317,10 @@ p.lead {
   flex-wrap: wrap;
   justify-content: center; }
 .work--button {
-  margin: 12px 24px;
+  margin: 24px 12px;
   border-width: 2px;
   font-size: 12px;
-  max-width: 200px;
+  max-width: 150px;
   padding: 12px 18px; }
   @media (min-width: 576px) {
     .work--button {
