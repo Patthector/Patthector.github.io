@@ -201,7 +201,7 @@ body {
 
 a {
   background: transparent;
-  color: #c69;
+  color: #007bff;
   text-decoration: none;
   transition: color .2s; }
 
@@ -260,8 +260,8 @@ p.lead {
   margin-bottom: 0px; }
 
 #portfolio__logo {
-  width: 40px;
-  height: 50px; }
+  width: 30px;
+  height: 40px; }
   @media (min-width: 576px) {
     #portfolio__logo {
       width: 50px;
@@ -299,11 +299,16 @@ p.lead {
 .work--description {
   color: gray;
   font-size: 14px;
+  line-height: 28px;
   font-family: "Montserrat", sans-serif;
   text-align: justify; }
   @media (min-width: 576px) {
     .work--description {
-      font-size: 16px; } }
+      font-size: 16px;
+      line-height: 36px; } }
+.work--skill {
+  text-transform: uppercase;
+  color: #d24d57; }
 .work--img {
   width: 100%;
   align-self: center; }
@@ -311,6 +316,15 @@ p.lead {
     .work--img {
       width: 75%;
       margin: auto; } }
+.work--extra {
+  width: 100%;
+  margin: 24px auto; }
+  @media (min-width: 576px) {
+    .work--extra {
+      width: 70%; } }
+.work--credit {
+  font-weight: normal;
+  font-size: 11px; }
 .work--container-buttons {
   display: flex;
   flex-direction: row;
@@ -442,6 +456,8 @@ main {
 #navbar {
   background-color: transparent;
   transition: all 1s; }
+  #navbar #btn-navbar {
+    border-style: none; }
 
 .navbar-shadow {
   box-shadow: 0px 4px 10px #909090; }

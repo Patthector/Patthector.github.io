@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:900" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="css/bootstrap.css" rel="stylesheet"/>
+    <!-- Custom styles for this template -->
+    <link href="inc/css/styles.css" rel="stylesheet" />
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -23,8 +25,6 @@
         }
       }
     </style>
-    <!-- Custom styles for this template -->
-    <link href="inc/css/styles.css" rel="stylesheet" />
   </head>
   <body class="text-center">
       <!--https://www.patthector.github.io/Portfolio-->
@@ -82,7 +82,7 @@
         <div class = "section--shadow section--shadow-red"></div>
         <div class = "container section--container-intro">
           <h1 class="cover-heading">Patricia Hector</h1>
-          <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+          <p class="lead">Self learner highly passionate about new technologies. Looking for get experience on the web development field. Hard worker and tireless learner, ready to become one of the best investments of the company. </p>
           <div>
             <a href="#portfolio" class="btn btn-outline-light btn-lg lead-btn lead-btn--red">Check my work</a>
           </div>
@@ -106,8 +106,23 @@
           <div class = "work background--sm">
             <h3 class = "work--title">Make It Stick</h3>
             <div class = "justify-content-center">
-              <p class = "work--description">This project is an organizer, where you are able to relate, describe and organize in the way that best fix for you. You have simple task, call todos, that could be linked in a collection.
-                Make it Stick has been my dream project since I started studying web design and has been an enjoyable and full of experience project which has made me a better developer.
+              <p class = "work--description">
+                MakeItStick is an organizer, its main objective is to categorize tasks/todos in logical way. The general structure of a project is a tree design where every element (todos or categories) will have a unique father, but each father could have endless children. The project will count on two basic elements “todos and categories”. The categories are the container that will bear the todos or other categories called “subcategories”. On the other, the todos will have a particular father category and also features like levels of importance and tags, that will help to share concepts with other todos and help the search of the todos.
+                This project was built with the well-known TodoList Project in mind. The wireframe and general design were built using tools like <span class = "work--skill">Adobe Photoshop</span>, <span class = "work--skill">Adobe Illustrator</span> and <span class = "work--skill">Balsamiq</span>.</p>
+                <p class = "work--description">The second part was the database schema with <span class = "work--skill">mySQL</span>. There were created 5 tables (users, collections, todos, tags, todo_tag) with their corresponding relationships:</p>
+                <div class = "work--extra">
+                  <div class = "work--credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+                  <img src = "./inc/MakeItStickDatabaseSchema.svg" alt = "database schema MakeItStick" />
+                </div>
+
+                <p class = "work--description">Then was created the routes architecture for the project using <span class = "work--skill">PHP</span> and <span class = "work--skill">PHP-Object-Oriented</span>:</p>
+                <div class = "work--extra">
+                  <img src = "./inc/URL-Architecture.svg" alt = "url-architecture MakeItStick" />
+                </div>
+                <p class = "work--description">At the forth stage of the project, when the backend was already working, the styles were added using <span class = "work--skill">Sass</span> preprocessor and <span class = "work--skill">Bootstrap library.</span>
+                At the last stage, was added all the different user interactions via <span class = "work--skill">JavaScript</span> and <span class = "work--skill">jQuery</span> and the element menu, one of the most interesting features of the project, which permit the interaction with a particular element (todo or category) to be deleted, created, moved or edited <span class = "work--skill">[CRUD]</span>. Almost all of the interactions were powered by <span class = "work--skill">AJAX</span> requests and <span class = "work--skill">PHP</span> calls.
+                The project also contains a search form, that could filter results based on category name, todo name or tag name; all accomplished with <span class = "work--skill">PHP</span> and <span class = "work--skill">SQL</span>. And the last feature that was added was the registration form which permit to create and control new users for the application.</p>
+
               </p>
               <div class = "row work--container-buttons">
                 <a href = "https://github.com/Patthector/TODO-PHP-OOP" role = "button" class = "col-8 col-sm-4 btn btn-outline-danger lead-btn work--button"><\Source Code></a>
@@ -123,8 +138,12 @@
             <h3 class = "work--title">Dorotea</h3>
             <div class = "justify-content-center">
               <div class = "">
-                <p class = "work--description">Dorotea's Collection is a website intended to illustrate a product, Dorotea's Dinnerware.
-                  This website is following the magazine design. </p>
+                <p class = "work--description">
+                  The main purpose of Dorotea Collection was to bring to the web the beauty of magazine design. In this website, fonts and photos play a crucial role giving a sense of elegance and serenity to the entire product. As well as the colors used to match perfectly with each piece of the collection.</p>
+                <p class = "work--description">The wireframe and basic design were created with <span class = "work--skill">Adobe Photoshop</span> and <span class = "work--skill">Balsamiq</span>. The styles were added using <span class = "work--skill">Sass</span> preprocessor and <span class = "work--skill">Bootstrap</span> library. <span class = "work--skill">CSS-Grid</span> also played a huge role on the main design making possible the principal collage of the website; this was also accomplished with
+                  <span class = "work--skill">JavaScript</span> and <span class = "work--skill">jQuery</span>.</p>
+                <p class = "work--description"><span class = "work--skill">Bootstrap</span> Modals and Carousels were used to display the gallery products. One of the most interesting features I learnt thanks to this project was <span class = "work--skill">CSS-grid layout</span>.</p>
+                 </p>
                 <div class = "row work--container-buttons">
                   <a href = "https://github.com/Patthector/Project_doroteaCollection" role = "button" class = "col-6 col-sm-4 btn btn-outline-danger lead-btn work--button"><\Source Code></a>
                   <a href = "https://patthector.github.io/Project_doroteaCollection/" role = "button" class = "col-6 col-sm-4 btn btn-outline-danger lead-btn work--button">See it only</a>
@@ -140,7 +159,11 @@
               <h3 class = "work--title">Blue Jaxon</h3>
               <div class = "justify-content-center">
                 <div class = "">
-                  <p class = "work--description">This project found inspiration on the Amazon Marketplace website, having as a main objective the distribution of products giving descriptions, images and all the information in where was available to buy it.</p>
+                  <p class = "work--description">This project found inspiration on the Amazon Marketplace website, having as a main objective the distribution of products by giving descriptions, images and sellers information. </p>
+                  <p class = "work--description">The website follows the e-commerce design and was created on the platform <span class = "work--skill">WordPress</span>.</p>
+                  <p class = "work--description">The first stage of this project was the design of the website, a three columns layout with a <span class = "work--skill">flexbox</span> display of the products created with <span class = "work--skill">Saas</span>
+                    preprocessor and <span class = "work--skill">Bootstrap</span>. The design of the template was created on a <span class = "work--skill">child-theme</span> along with all the hierarchy of the website (front page, singular page, archive page, etc.).</p>
+                  <p class = "work--description">Blue Jaxon also uses an <span class = "work--skill">AJAX plugin</span> to help calling new products while scrolling on the page. Each product gets redirected to its own page on Amazon.com, ready to be bought.</p>
                   <div class = "row work--container-buttons">
                     <a href = "https://github.com/Patthector/Project_doroteaCollection" role = "button" class = "col-8 col-sm-4 btn btn-outline-danger lead-btn work--button"><\Source Code></a>
                     <a href = "https://www.bluejaxon.com" role = "button" class = "col-8 col-sm-4 btn btn-outline-danger lead-btn work--button">See it only</a>
