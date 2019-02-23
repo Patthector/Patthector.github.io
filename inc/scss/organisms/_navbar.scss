@@ -1,6 +1,9 @@
 #navbar{
   background-color: transparent;
   transition: all 1s;
+  #btn-navbar{
+    border-style: none;
+  }
 }
 .navbar-shadow{
   box-shadow: 0px 4px 10px #909090;
@@ -16,4 +19,5 @@
   .portfolio__nav-link{
     color: white !important;
   }
+
 }

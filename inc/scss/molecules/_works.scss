@@ -12,11 +12,17 @@
   &--description{
     color:gray;
     font-size:14px;
+    line-height: 28px;
     font-family: $font-family-secondary;
     text-align: justify;
     @media(min-width:576px){
       font-size: 16px;
+      line-height: 36px;
     }
+  }
+  &--skill{
+    text-transform: uppercase;
+    color:#d24d57;
   }
   &--img{
     width: 100%;
@@ -26,6 +32,17 @@
     }
     align-self: center;
   }
+  &--extra{
+    width: 100%;
+    margin: 24px auto;
+    @media(min-width: 576px){
+      width: 70%;
+    }
+  }
+  &--credit{
+    font-weight: normal;
+    font-size: 11px;
+  }
   &--container-buttons{
     display: flex;
     flex-direction: row;
@@ -33,10 +50,10 @@
     justify-content: center;
   }
   &--button{
-    margin: 12px 24px;
+    margin: 24px 12px;
     border-width: 2px;
     font-size:12px;
-    max-width: 200px;
+    max-width: 150px;
     padding: 12px 18px;
     @media(min-width:576px){
       max-width:275px;

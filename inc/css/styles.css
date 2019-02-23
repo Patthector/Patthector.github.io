@@ -219,6 +219,7 @@ h6 {
   font-weight: normal; }
 
 .cover-heading {
+  transition: all ease-in .5s;
   text-transform: uppercase;
   color: white;
   font-size: 42px;
@@ -226,6 +227,9 @@ h6 {
   @media (min-width: 576px) {
     .cover-heading {
       font-size: 64px; } }
+
+#intro-text, #intro-button {
+  transition: all ease-in .5s; }
 
 p.lead {
   font-family: "Montserrat", sans-serif;
@@ -269,8 +273,8 @@ p.lead {
   #portfolio__logo svg circle {
     fill: white;
     transition: all 1s; }
-  #portfolio__logo svg path {
-    color: #dc3545; }
+  #portfolio__logo svg path.st1 {
+    fill: #dc3545; }
 
 .background {
   width: 100%;
